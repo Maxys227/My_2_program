@@ -1,11 +1,5 @@
 #include "PrintPars.h"
 
-void printPersonPars(Person p)
-{
-	cout << "ÔÈÎ; " << p.name << " " << p.secondname << "." << endl;
-	cout << "âîçðîñò: " << p.age << endl;
-}
-
 void printPersonFIO(Person p)
 {
 	cout << "ÔÈÎ; " << p.name << " " << p.secondname << "." << endl;
